@@ -1,0 +1,24 @@
+{
+    "name": "Casa Dos Anjos",
+    "features": {
+        "chat": true,
+        "fivecuriosities": true,
+        "quiz": true
+    },
+    "games": {
+        "egd": {
+            "name": "Earth's Greatest Defender",
+            "description": "Defend Earth from invaders in the most badass way",
+            "image": "https://tap2play.io/earth-s-greatest-defender.png",
+            "link": "https://egd.tap2play.io/",
+            "source": "https://tap2play.io/"
+        },
+        "glory": {
+            "name": "Path to Glory",
+            "description": "Fight through hordes of enemies and slay the emperor",
+            "image": "https://tap2play.io/path-to-glory.png",
+            "link": "https://glory.tap2play.io/",
+            "source": "https://tap2play.io/"
+        }
+    }
+}
