@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salve Casa dos Anjos - Ajude os Animais usando um app</title>
+    <link rel="stylesheet" href="./assets/css/salveanjos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Casa dos Anjos</h1>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#fundadora">Fundadora</a></li>
+                <li><a href="#doacoes">Doações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Ajude os Animais em Macaé</h2>
+            <p>Faça parte da nossa missão de resgatar, cuidar e dar uma nova chance de vida para animais vulneráveis.</p>
+            <a href="#" class="download-btn">Baixar aplicativo</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2>Sobre a Casa dos Anjos</h2>
+        <p>
+            Todos os animais sob nossa tutela passam pelo mesmo processo: resgate, consulta veterinária, exame de sangue, vermifugação, vacinação, castração.
+            Em casos mais graves, ficam internados e passam por cirurgias ou outros procedimentos de maior complexidade. 
+            <strong>TODOS RECEBEM O MESMO TRATAMENTO!</strong>
+        </p>
+        <p>
+            Indo além dos nossos muros: Ajudamos os protetores da região com rateio de ração, medicamentos e castrações. Não conseguimos abrigar todos
+            os animais vulneráveis em Macaé, mas fornecemos suporte contínuo com ração, medicamentos e controle de natalidade.
+        </p>
+    </section>
+
+    <section id="fundadora" class="features">
+        <h2>Fundadora - Thaís Fagundes</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <p>
+                    Thaís Fagundes, esposa e mãe de 3 filhos, dedica sua vida aos animais. Mesmo com os desafios e riscos que um abrigo traz, ela nunca se arrependeu.
+                    Em todos os registros, desde contratos de aluguel até contas em clínicas veterinárias e casas de ração, Thaís sempre colocou seu próprio nome, com a responsabilidade total.
+                </p>
+            </div>
+            <div class="feature">
+                <p>
+                    Apesar de dívidas mensais altíssimas, ela mantém parcerias valiosas com pagamentos facilitados graças à sua transparência e honestidade. 
+                    Seu compromisso permitiu que o abrigo continue a operar, sempre na esperança de receber doações para cobrir esses custos.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="doacoes" class="download">
+        <h2>Ajude com sua Doação</h2>
+        <p style="margin-bottom: 20px;">
+            A sua doação pode fazer a diferença na vida de muitos animais. Toda ajuda, seja financeira ou em forma de ração, medicamentos, ou voluntariado, 
+            nos permite continuar com nossa missão de salvar vidas. Cada centavo ajuda!
+        </p>
+        <a href="#" class="download-btn">Baixar aplicativo</a>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Casa dos Anjos - Todos os direitos reservados</p>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#fundadora">Fundadora</a></li>
+            <li><a href="#doacoes">Doações</a></li>
+        </ul>
+    </footer>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.querySelector('.nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
